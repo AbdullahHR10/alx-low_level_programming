@@ -1,6 +1,7 @@
 #include<stdio.h>
 /**
- *  main - this code prints words
+ *main - entry point
+ *return: always 0
  */
 int main(void)
 {
