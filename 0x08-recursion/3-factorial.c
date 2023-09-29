@@ -1,11 +1,10 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * factorial - gets factorial of n
- * @n: integer
+ * factorial - returns the factorial of a number
+ * @n: number to return the factorial from
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: factorial of n
  */
 int factorial(int n)
 {
