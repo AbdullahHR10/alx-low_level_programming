@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 /*
-* Main - prints lowercase alphabet
+* main - prints lowercase alphabet
 *
 * Return; - always 0
 */
-int main(void) {
+int main(void)
+{
 char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
 int i;
 for (i = 0; i < 26; i++)
