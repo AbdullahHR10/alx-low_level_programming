@@ -5,14 +5,13 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-	int i;
+int main() {
+    int i;
+    for(i = 0; i < 10; i++)
+    {
+        printf("%d", i);
+    }
+    putchar('\n');
 
-	for (i = 48; i < 58; i++)
-	{
-		putchar(i);
-	}
-	putchar('\n');
-	return (0)}
-
+    return 0;
+}
