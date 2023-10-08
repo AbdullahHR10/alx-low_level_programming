@@ -13,6 +13,6 @@ for (i = 0; i < 26; i++)
 {
 putchar(alphabet[i]);
 }
-utchar('\n');
+putchar('\n');
 return (0);
 }
