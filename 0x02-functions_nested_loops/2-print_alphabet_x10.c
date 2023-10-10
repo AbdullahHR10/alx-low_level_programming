@@ -1,17 +1,23 @@
-#include <main.h>
+#include "main.h"
 
 /*
-* main : Prints the alphabet in lowercase 10 times followed by a new line
+* main - Prints the alphabet in lowercase 10 times followed by a new line
 *
 * Return : Always 0
 */
-int main() {
-    char alphabet[270] = "abcdefghijklmnopqrstuvwxyz\nabcdefghijklmnopqrstuvwxyz\nabcdefghijklmnopqrstuvwxyz\nabcdefghijklmnopqrstuvwxyz\nabcdefghijklmnopqrstuvwxyz\nabcdefghijklmnopqrstuvwxyz\nabcdefghijklmnopqrstuvwxyz\nabcdefghijklmnopqrstuvwxyz\nabcdefghijklmnopqrstuvwxyz\nabcdefghijklmnopqrstuvwxyz\n";
-    int i;
-    for (i = 0; i < 270; i++)
-    {
-        putchar(alphabet[i]);
-    }
-    putchar('\n');
-    return(0);
+
+void print_alphabet_x10(void)
+{
+	int i;
+	char c;
+	for (i = 0; i < 10; i++)
+	{
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
+		_putchar('\n');
+	}
+	}
+
+	return (0);
 }
