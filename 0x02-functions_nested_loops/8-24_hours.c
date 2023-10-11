@@ -10,11 +10,11 @@ void jack_bauer(void)
 {
 	int h, m;
 
-	if (m < 60, m++)
-	putchar(m);
-	putchar('\n');
+	for (m < 60; m++;)
+	_putchar(m);
+	_putchar('\n');
 
-	if (h < 24, h++)
-	putchar(h);
-	putchar('\n')
+	for (h < 24; h++;)
+	_putchar(h);
+	_putchar('\n');
 }
