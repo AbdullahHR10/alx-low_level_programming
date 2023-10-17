@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - causes an infinite loop because i ever increments so it is always going to print 0
+* main - causes an infinite loop because i never increments
 * Return: 0
 */
 
