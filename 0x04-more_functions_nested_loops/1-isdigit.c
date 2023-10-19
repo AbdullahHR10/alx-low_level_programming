@@ -2,13 +2,13 @@
 
 /**
  * _isdigit - checks for a digit between 0 - 9
- * @c: int to be checked
+ * @c: to be checked
  * Return: 1 if c is a digit, else 0
  */
 
 int _isdigit(int c)
 {
-	if (c > 47 && c < 58)
+	if ((c > 47) && (c < 58))
 	{
 		return (1);
 	}
