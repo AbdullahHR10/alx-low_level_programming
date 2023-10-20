@@ -23,7 +23,6 @@ void print_diagonal(int n)
 			for (c = -1; c < i; c++)
 				{
 					_putchar(' ');
-					_putchar('\n');
 				}
 		}
 	}
