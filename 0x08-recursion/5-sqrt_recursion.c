@@ -8,18 +8,18 @@
 
 int _sqrt_recursion(int n)
 {
-	int a, b;
+	int b;
 
-	if (b * b > a)
+	if (b * b > n)
 	{
 		return (-1);
 	}
-	if (b * b < a)
+	if (b * b < n)
 	{
 		return (-1);
 	}
-	if (b * b == a)
+	if (b * b == n)
 	{
-		return (a);
+		return (n);
 	}
 }
