@@ -5,7 +5,7 @@
  * Return: -1 if y is lower than 0
  */
 
-int _pow_recursion(int x, int 
+int _pow_recursion(int x, int y)
 {
 	if (y < 0)
 	{
