@@ -3,16 +3,14 @@
 
 /**
  * main - prints it's own name
- * @agrc: an int
+ * @argc: an int
  * @argv: an array
- * return: always 0
+ * Return: always 0
  */
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
-	if (argc > 0)
-	{
 		printf("%s\n", argv[argc * 0]);
-	}
-	return (0);
+
+		return (0);
 }
