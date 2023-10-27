@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 			
 			return (1);
 	}
-	else if (argc > 2)
+	if (argc > 2)
 	{
 		printf("%d\n", r);
 	}
