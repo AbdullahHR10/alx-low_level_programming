@@ -1,4 +1,12 @@
 #include <stdio.h>
+#include "main.h"
+
+/**
+ * main - prints it's own name
+ * @agrc: an int
+ * @argv: an array
+ * return: always 0
+ */
 
 int main(int argc, char* argv[])
 {
@@ -6,4 +14,5 @@ int main(int argc, char* argv[])
 	{
 		printf("%s\n", argv[argc * 0]);
 	}
+	return (0);
 }
