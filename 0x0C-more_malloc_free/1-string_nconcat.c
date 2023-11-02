@@ -8,7 +8,7 @@
  * @s1: char
  * @s2: char
  * @n: int
- * Return: NULL if it fails, otherwise a pointer
+ * Return: NULL if it fails, otherwise ptr
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
