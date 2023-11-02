@@ -44,6 +44,4 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	strncpy(ptr, s2, n);
 	ptr[c - 1] = '\0';
 	return (ptr);
-
-	free(ptr);
 }
