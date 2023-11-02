@@ -41,7 +41,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (NULL);
 	}
 	strcpy(ptr, s1);
-	strncpy(ptr, s2, n);
+	strncat(ptr, s2, n);
 	ptr[c - 1] = '\0';
 	return (ptr);
 }
