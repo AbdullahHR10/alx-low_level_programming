@@ -1,10 +1,13 @@
 #include "main.h"
 
 /**
- * print_rev - prints a string in reverse
- * _strlen - caluclates str length
- * @s: char
- * Return: 0
+ * _strlen - Returns the length of a string.
+ * @s: The input string.
+ *
+ * Description:
+ * This function calculates and returns the length of the input string 's'.
+ *
+ * Return: The length of the string.
  */
 
 int _strlen(char *s)
@@ -18,6 +21,16 @@ int _strlen(char *s)
 	}
 	return (longi);
 }
+
+/**
+ * print_rev - Prints a string in reverse order.
+ * @s: The input string to be printed in reverse.
+ *
+ * Description:
+ * This function takes a string 's' and prints its characters in reverse order.
+ *
+ * Return: None.
+ */
 
 void print_rev(char *s)
 {
