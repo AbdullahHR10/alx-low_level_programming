@@ -35,7 +35,7 @@ void puts_half(char *str)
 	}
 	else
 	{
-		c = (l - 1) / 2;
+		c = (l + 1) / 2;
 	}
 	for (i = c; str[i] != '\0'; i++)
 	{
