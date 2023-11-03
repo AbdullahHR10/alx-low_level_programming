@@ -2,6 +2,7 @@
 
 /**
  * print_rev - prints a string in reverse
+ * _strlen - caluclates str length
  * @s: char
  * Return: 0
  */
@@ -21,7 +22,7 @@ int _strlen(char *s)
 void print_rev(char *s)
 {
 	int i, c;
-	
+
 	i = _strlen(s);
 
 	for (c = i - 1; c >= 0; c--)
