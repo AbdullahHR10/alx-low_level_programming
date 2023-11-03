@@ -33,7 +33,7 @@ void puts_half(char *str)
 	{
 		c = l / 2;
 	}
-	if (l % 2 == 1)
+	else
 	{
 		c = (l - 1) / 2;
 	}
