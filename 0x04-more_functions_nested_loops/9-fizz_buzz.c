@@ -29,7 +29,7 @@ int main(void)
 		}
 		if (c < 100)
 		{
-			prinf(" ");
+			printf(" ");
 		}
 	}
 	return (0);
