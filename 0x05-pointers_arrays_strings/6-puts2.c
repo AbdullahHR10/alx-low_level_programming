@@ -1,21 +1,4 @@
 #include "main.h"
-/**
- * _strlen - returns the length of a string
- * @s: string
- * Return: length
- */
-int _strlen(char *s)
-{
-	int longi = 0;
-
-	while (*s != '\0')
-	{
-		longi++;
-		s++;
-	}
-
-	return (longi);
-}
 
 /**
  * puts2 - Prints every other character of a string
@@ -25,9 +8,7 @@ int _strlen(char *s)
 
 void puts2(char *str)
 {
-	int i, c;
-
-	c = _strlen(str);
+	int i;
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
