@@ -18,12 +18,12 @@ void print_diagonal(int n)
 	{
 		for (i = 0; i < n; i++)
 		{
+			for (c = 0; c < i; c++)
+			{
+				_putchar(' ');
+			}
 			_putchar('\\');
 			_putchar('\n');
-			for (c = -1; c < i; c++)
-				{
-					_putchar(' ');
-				}
 		}
 	}
 }
