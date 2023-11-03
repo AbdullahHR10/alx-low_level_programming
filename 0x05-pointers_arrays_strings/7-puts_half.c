@@ -23,23 +23,22 @@ int _strlen(char *s)
  * Return: 0
  */
 
-void puts_half(char *str)
-{
-	int i, l, c;
+#include <stdio.h>
+#include <string.h>
 
-	l = _strlen(str);
+void puts_half(char *str) {
+    int length = _strlen(str);
+    int start_index;
 
-	if (l % 2 == 0)
-	{
-		c = l / 2;
-	}
-	else
-	{
-		c = (l - 1) / 2;
-	}
-	for (i = c; str[i] != '\0'; i++)
-	{
-		_putchar(str[i]);
-	}
-	_putchar('\n');
+    if (length % 2 == 0) {
+        start_index = length / 2;
+    } else {
+        start_index = (length - 1) / 2;
+    }
+
+    for (int i = start_index; i < length; i++) {
+        _putchar(str[i]);
+    }
+
+    _putchar('\n');
 }
