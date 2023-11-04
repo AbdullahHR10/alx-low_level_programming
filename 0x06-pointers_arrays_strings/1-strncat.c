@@ -20,11 +20,11 @@ char *_strncat(char *dest, char *src, int n)
 
 	while (dest[dlength] != '\0')
 	{
-		dlength++
+		dlength++;
 	}
 	while (slength < n && src[slength] != '\0')
 	{
-		slength++
+		slength++;
 	}
 	totallength = slength + dlength;
 
