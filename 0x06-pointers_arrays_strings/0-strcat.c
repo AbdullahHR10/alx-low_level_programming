@@ -31,7 +31,7 @@ char *_strcat(char *dest, char *src)
 	{
 		dest[dlength + i] = src[i];
 	}
-	dest [totallength] = '\0';
+	dest[totallength] = '\0';
 
 	return (dest);
 }
