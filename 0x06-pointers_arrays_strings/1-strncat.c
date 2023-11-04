@@ -13,7 +13,6 @@ char *_strncat(char *dest, char *src, int n)
 	int i;
 	int dlength;
 	int slength;
-	int totallength;
 
 	dlength = 0;
 	slength = 0;
