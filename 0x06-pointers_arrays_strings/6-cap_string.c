@@ -9,27 +9,29 @@
 char *cap_string(char *str)
 {
 	int i;
-	int nothing;
+	int newword;
 
 	i = 0;
-	nothing = 1;
+	newword = 1;
 
 	while (str[i] != '\0')
 	{
 		if (str[i] >= 'a' && str[i] <= 'z')
 		{
-			if (nothing || str[i - 1] == ' ' || str[i - 1] == '\t' || str[i - 1] == '\n' ||
+			if (nothing || str[i - 1] == ' ' || str[i - 1] == '\t' ||
+					str[i - 1] == '\n' ||
 					str[i - 1] == ',' || str[i - 1] == ';' ||
 					str[i - 1] == '.' || str[i - 1] == '!' ||
 					str[i - 1] == '?' || str[i - 1] == '"' ||
 					str[i - 1] == '(' || str[i - 1] == ')' ||
 					str[i - 1] == '{' || str[i - 1] == '}') {
-				str[i] -= 32;
+				str[i] = str[i] - 'a' + 'A';
 			}
-			nothing = 0;
+			newword = 0;
 		}
-		else {
-			nothing = 1;
+		else
+		{
+			newword = 1;
 		}
 		i++;
 	}
