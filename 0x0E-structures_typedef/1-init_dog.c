@@ -23,6 +23,8 @@ int main(void)
 	init_dog(&mydog, "Rusty", 2.5, "Kyo");
 
 	printf("The name of my dog is %s\n", mydog.name);
-	printf("The age of my dog is %lf\n", mydog.age);
+	printf("The age of my dog is %f\n", mydog.age);
 	printf("The owner of the dog is %s\n", mydog.owner);
+
+	return (0);
 }
