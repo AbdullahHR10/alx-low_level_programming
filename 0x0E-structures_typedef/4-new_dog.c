@@ -5,10 +5,10 @@
 
 /**
  * new_dog - Creates a new dog
- * @newdog: ptr
  * @name: dog name
  * @age: dog age
  * @owner: dog owner
+ * Return: newdog
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
