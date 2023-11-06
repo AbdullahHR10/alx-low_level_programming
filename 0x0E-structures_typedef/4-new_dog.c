@@ -5,6 +5,7 @@
 
 /**
  * new_dog - Creates a new dog
+ * @newdog: ptr
  * @name: dog name
  * @age: dog age
  * @owner: dog owner
