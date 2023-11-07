@@ -2,13 +2,15 @@
 
 /**
  * main - Entry point
+ *
  * Description: Prints the name of the file it was compiled from
- * return: 0
+ *
+ * Return: 0
  */
 
 int main(void)
 {
-	_putchar(__FILE__);
+	printf("%s\n", __FILE__);
 
 	return (0);
 }
