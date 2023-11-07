@@ -1,6 +1,6 @@
 #ifndef PRE_HEADER
 #define PRE_HEADER
 
-#define sum(x, y) ((x + y))
+#define SUM(x, y) ((x + y))
 
 #endif
