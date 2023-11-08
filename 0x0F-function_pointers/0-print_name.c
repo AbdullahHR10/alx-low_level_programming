@@ -8,9 +8,9 @@
 
 void print_name(char *name, void (*f)(char *))
 {
+	if (name == NULL || f == NULLL)
+	{
+		return;
+	}
 	f(name);
-}
-void call_back(char *name)
-{
-	_putchar(name);
 }
