@@ -3,8 +3,9 @@
 #include "function_pointers.h"
 /**
  * print_name - Prints name
- *
- * Return: NULL if name or f == NULL 
+ * @name: char
+ * @f: function
+ * Return: NULL if name or f == NULL
  */
 
 void print_name(char *name, void (*f)(char *))
