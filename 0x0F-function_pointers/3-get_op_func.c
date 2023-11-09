@@ -1,13 +1,14 @@
-#include <stdio.h>
 #include "3-calc.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * get_op_func - Function Selector
- * @S: char
+ * @s: char
  * Return: pointer to function
  */
 
-int (*get_op_func(char *S))(int, int)
+int (*get_op_func(char *s))(int, int)
 {
 	int i;
 
@@ -22,9 +23,11 @@ int (*get_op_func(char *S))(int, int)
 	i = 0;
 	while (ops[i].op)
 	{
-		of(*(ops[i].op) == *s && s[1] == '\0')
+		if(*(ops[i].op) == *s && s[1] == '\0')
+		{
 			return (ops[i].f);
-			i++;
+		}
+		i++;
 	}
 	printf("ERROR\n");
 
