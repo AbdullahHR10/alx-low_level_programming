@@ -3,7 +3,7 @@
 
 /**
  * get_op_func - Function Selector
- * @s: char
+ * @S: char
  * Return: pointer to function
  */
 
@@ -23,7 +23,7 @@ int (*get_op_func(char *S))(int, int)
 	while (ops[i].op)
 	{
 		of(*(ops[i].op) == *s && s[1] == '\0')
-			return ops[i].f;
+			return (ops[i].f);
 			i++;
 	}
 	printf("ERROR\n");
