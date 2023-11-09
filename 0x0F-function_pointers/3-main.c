@@ -4,6 +4,8 @@
 
 /**
  * main - main function
+ * @argc: int
+ * @argv: char
  * Return: 0
  */
 
