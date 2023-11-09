@@ -5,7 +5,7 @@
 /**
  * main - main function
  * @argc: int
- * @argv: char
+ * @argv: char ptr
  * Return: 0
  */
 
