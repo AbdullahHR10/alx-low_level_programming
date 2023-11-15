@@ -11,3 +11,9 @@ Files--
 3-islower.c - Checks for lowercase character
 
 4-isalpha.c - Checks for alphabetic character
+
+5-sign.c - Prints the sign of a numbe
+
+6-abs.c - Computes the absolute value of an integer
+
+7-print_last_digit.c - Prints the last digit of a number
