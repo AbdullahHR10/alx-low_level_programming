@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_last_digit - Prints the value of the last digit
  * @i: int
  * Return: Value of last digit
  */
 
-int _abs(int i)
+int print_last_digit(int i)
 {
 	if (i >= 0)
 	{
