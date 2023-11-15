@@ -10,4 +10,4 @@ Files--
 
 3-print_alphabets.c - Prints the alphabet in lowercase, and then in uppercase, followed by a new line
 
-
+4-print_alphabt.c - Prints the alphabet except q and e in lowercase, followed by a new line
