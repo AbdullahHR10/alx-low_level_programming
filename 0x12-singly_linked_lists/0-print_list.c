@@ -25,5 +25,6 @@ size_t print_list(const list_t *h)
 
 		h = h->next;
 	}
+	printf("-> %d elements", count);
 	return (count);
 }
