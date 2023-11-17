@@ -3,7 +3,7 @@
 /**
  * add - Adds two integers and returns the result
  * @i: int
- * @j: int 
+ * @j: int
  * Return: value of the ints
  */
 
