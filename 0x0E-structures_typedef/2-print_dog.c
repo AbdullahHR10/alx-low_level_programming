@@ -10,5 +10,13 @@ void print_dog(struct dog *d)
 {
 	if (d != NULL)
 	{
-		printf("Name: %s\nAge : %d\nOwner: %s\n", name, age, owner);
+		if (name == NULL || owner == NULL)
+		{
+			printf("(nil)");
+		}
+		else
+		{
+			printf("Name: %s\nAge: %lf\nOwner: %s\n", d->name, d->age, d->owner);
+		}
 	}
+}
