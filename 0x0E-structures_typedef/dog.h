@@ -2,7 +2,14 @@
 #define DOG_HEADER
 
 #include <stdio.h>
-typedef struct dog {
+/**
+ * struct dog - Struct that contains info about dogs
+ * @name: dog name
+ * @age: dog age
+ * @owner: dog's owner name
+ */
+typedef struct dog
+{
 	char *name;
 	float age;
 	char *owner;
