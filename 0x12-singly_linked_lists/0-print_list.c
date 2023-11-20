@@ -10,7 +10,7 @@ size_t print_list(const list_t *h)
 {
 	int num = 0;
 
-	if (h != NULL)
+	while (h != NULL)
 	{
 	if (h->str == NULL)
 	{
