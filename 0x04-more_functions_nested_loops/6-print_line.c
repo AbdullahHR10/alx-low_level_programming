@@ -2,7 +2,7 @@
 
 /**
  * print_line Draws a straight line in the terminal
- * @n: in
+ * @n: int
  * Return: nothing
  */
 
