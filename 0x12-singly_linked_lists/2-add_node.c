@@ -10,17 +10,24 @@
 
 list_t *add_node(list_t **head, const char *str)
 {
+    // Allocate memory for the new node
     list_t *new_node = malloc(sizeof(list_t));
-    new_node->str = strdup(str);
+    if (new_node == NULL) {
+        return NULL; // Memory allocation failed
+    }
 
-    if (new_node == NULL || new_node->str == NULL) {
-        free(new_node);
+    // Duplicate the string
+    new_node->str = strdup(str);
+    if (new_node->str == NULL) {
+        free(new_node); // Memory allocation for the string failed
         return NULL;
     }
 
+    // Set values for the new node
     new_node->len = strlen(str);
     new_node->next = *head;
 
+    // Update the head of the list
     *head = new_node;
 
     return new_node;
