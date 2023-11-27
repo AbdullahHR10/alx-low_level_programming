@@ -17,32 +17,32 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	{
 		return (0);
 	}
-	p = fopen("filename", "0_RDONLY");
+	p = open(filename, O_RDONLY);
 	if (p == -1)
 	{
 		return (-1);
 	}
 	b = malloc(letters);
-	if (buffer == NULL)
+	if (b == NULL)
 	{
 		close(p);
 		return (0);
 	}
-	bytesRead = read(p, buffer, lters);
+	bytesRead = read(p, b, letters);
 	if (bytesRead == -1)
 	{
-		free(buffer);
+		free(b);
 		close(p);
 		return (0);
 	}
-	bytesWritten = wrie(STDOUT_FILENO, buffer, bytesRead);
+	bytesWritten = write(STDOUT_FILENO, b, bytesRead);
 	if (bytesWritten == -1 || bytesWritten != bytesRead)
 	{
-		free(buffer);
+		free(b);
 		close(p);
 		return (0);
 	}
-	free(buffer);
+	free(b);
 	close(p);
 	return (bytesRead);
 }
