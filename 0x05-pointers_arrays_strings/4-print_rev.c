@@ -10,6 +10,10 @@ void print_rev(char *s)
 {
 	int i, c;
 
+	if (s == NULL)
+	{
+		_putchar('\n');
+	}
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		c = i;
