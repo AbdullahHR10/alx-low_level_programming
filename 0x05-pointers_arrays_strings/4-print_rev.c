@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stddef.h>
 
 /**
  * print_rev - Prints a string, in reverse
@@ -17,7 +16,7 @@ void print_rev(char *s)
 	}
 	for (i = 0; c >= i; c--)
 	{
-		if (s[c] != NULL)
+		if (s[c] != '\0')
 		_putchar(s[c]);
 	}
 	_putchar('\n');
