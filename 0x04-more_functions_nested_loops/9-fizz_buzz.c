@@ -16,26 +16,26 @@ int main(void)
 		{
 			printf("FizzBuzz");
 			if (i != 100)
-			putchar(' ');
+			_putchar(' ');
 		}
 		else if (i % 3 == 0 && i != 0)
 		{
 			printf("Fizz");
 			if (i != 100)
-			putchar(' ');
+			_putchar(' ');
 		}
 		else if (i % 5 == 0 && i != 0)
 		{
 			printf("Buzz");
 			if (i != 100)
-			putchar(' ');
+			_putchar(' ');
 		}
 		else
 		{
 			if (i != 0)
 			printf("%d", i);
 			if (i != 100)
-			putchar(' ');
+			_putchar(' ');
 		}
 	}
 	return (0);
