@@ -33,6 +33,8 @@ int main(void)
 		else
 		{
 			printf("%d", i);
+			if (i != 99)
+			putchar(' ');
 		}
 	}
 	putchar('\n');
