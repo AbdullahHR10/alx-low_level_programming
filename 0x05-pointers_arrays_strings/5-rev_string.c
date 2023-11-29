@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
  * rev_string - Reverses a string
@@ -12,7 +11,7 @@ void rev_string(char *s)
 	int i, c;
 	char b;
 
-	if (s == NULL)
+	if (s[0] == '\0')
 	{
 		return;
 	}
