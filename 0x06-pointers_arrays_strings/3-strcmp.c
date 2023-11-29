@@ -14,7 +14,7 @@ int _strcmp(char *s1, char *s2)
 	for (i = 0; s1[i] != '\0'; i++)
 	{
 	}
-	for (c = 0; s[c] != '\0'; c++)
+	for (c = 0; s2[c] != '\0'; c++)
 	{
 	}
 	if (i > c)
