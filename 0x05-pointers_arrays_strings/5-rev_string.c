@@ -11,7 +11,7 @@ void rev_string(char *s)
 	int i, c;
 	char b;
 
-	if (*s == '\0')
+	if (s == NULL)
 	{
 		_putchar('\n');
 	}
