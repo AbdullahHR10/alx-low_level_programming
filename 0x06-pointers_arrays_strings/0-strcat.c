@@ -15,7 +15,7 @@ char *_strcat(char *dest, char *src)
 	{
 		_putchar(dest[i]);
 	}
-	for (i = 0; src[i] != '\0'; t++)
+	for (i = 0; src[i] != '\0'; i++)
 	{
 		_putchar(src[i]);
 	}
