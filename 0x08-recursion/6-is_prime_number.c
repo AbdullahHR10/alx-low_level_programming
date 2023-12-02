@@ -38,4 +38,4 @@ int is_prime_number(int n)
 	{
 		return (prime_helper(n, 2));
 	}
-}				
+}
