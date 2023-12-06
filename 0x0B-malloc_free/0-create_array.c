@@ -7,12 +7,12 @@
  * @c: char
  * Return: ptr to array or NULL if failed
  */
-'
+
 char *create_array(unsigned int size, char c)
 {
 	char *ptr;
 	char *str;
-	int i;
+	unsigned int i;
 
 	ptr = (char *)malloc(sizeof(char) * 3);
 	if (ptr == NULL)
