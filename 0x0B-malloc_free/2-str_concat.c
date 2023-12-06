@@ -14,13 +14,18 @@ char *str_concat(char *s1, char *s2)
 	char *ptr;
 
 	ptr = (char *)malloc(sizeof(char) * (strlen(s1) + strlen(s2) + 1));
+	if (ptr == NULL)
+	{
+		return (NULL);
+	}
 	for (i = 0; s1[i] != '\0'; i++)
 	{
+		ptr[i] = s1[i];
 	}
-	for (j = 0; s2[j] != '\0'; j++)
+	for (j = 0; s2[j] != '\0'; j++, i++)
 	{
-		s1[i + j] = s2[j];
+		ptr[i] = s2[j];
 	}
-	s1[i + j] = '\0';
+	ptr[i] = '\0';
 	return (ptr);
 }
