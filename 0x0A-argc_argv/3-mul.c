@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 		printf("ERROR\n");
 		return (1);
 	}
-	if (argv[2][0] != '\0')
+	if (argv[2][0] == '\0')
 	{
 		printf("ERROR\n");
 		return (1);
