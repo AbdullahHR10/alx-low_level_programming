@@ -12,12 +12,12 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		fprintf(stderr, "ERROR\n");
+		printf("ERROR\n");
 		return (1);
 	}
 	value = atoi(argv[1]);
 	value2 = atoi(argv[2]);
 	sum = value * value2;
 	printf("%d\n", sum);
-	return (sum);
+	return (0);
 }
