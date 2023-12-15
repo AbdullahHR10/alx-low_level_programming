@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	}
 	for (i = 1; i < argc; i++)
 	{
-		if (atoi(argv[i]) > -100000 || atoi(argv[i]) < 100000)
+		if (atoi(argv[i]) > -100000 && atoi(argv[i]) < 100000)
 		{
 			sum = sum + atoi(argv[i]);
 		}
@@ -26,6 +26,6 @@ int main(int argc, char *argv[])
 			return (1);
 		}
 	}
-        printf("%d\n", sum);
-        return (0);
+	printf("%d\n", sum);
+	return (0);
 }
