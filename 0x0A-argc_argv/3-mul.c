@@ -10,9 +10,9 @@ int main(int argc, char *argv[])
 {
 	int i, sum, value, value2;
 
-	if (argc != 3)
+	if (argc != 2)
 	{
-		printf("ERROR");
+		printf("ERROR\n");
 		return (1);
 	}
 	for (i = 1; i < argc - 1; i++)
