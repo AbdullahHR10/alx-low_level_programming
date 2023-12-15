@@ -9,7 +9,7 @@
 
 int main(int argc, char *argv[])
 {
-	void (argc);
+	UNUSED (argc);
 
 	printf("%s", argv[0]);
 
