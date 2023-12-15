@@ -18,6 +18,11 @@ int main(int argc, char *argv[])
 	}
 	for (i = 1; i < argc; i++)
 	{
+		if (*argv[i] >= 'a' && *argv[i] <= 'z')
+		{
+			printf("Error\n");
+			return (1);
+		}
 		sum = sum + atoi(argv[i]);
 	}
 	printf("%d\n", sum);
