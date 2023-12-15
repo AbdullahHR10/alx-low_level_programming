@@ -9,7 +9,8 @@
 int main(int argc, char *argv[])
 {
 	UNUSED(argv);
+
 	printf("%d\n", argc);
 
-	return (0);
+	return (argc);
 }
