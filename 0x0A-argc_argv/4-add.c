@@ -10,17 +10,14 @@ int main(int argc, char *argv[])
 {
 	int i, sum = 0;
 
-	if (argc <= 1)
+	if (argc == 1)
 	{
 		printf("0\n");
 	}
 	for (i = 1; i < argc; i++)
 	{
-		if (atoi(argv[i]) > -100000 && atoi(argv[i]) < 100000)
-		{
-			sum = sum + atoi(argv[i]);
-		}
-		else
+		sum = sum + atoi(argv[i]);
+		if (!isdigit(argv[i]));
 		{
 			printf("Error\n");
 			return (1);
