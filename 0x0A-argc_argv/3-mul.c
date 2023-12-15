@@ -15,6 +15,11 @@ int main(int argc, char *argv[])
 		printf("ERROR\n");
 		return (1);
 	}
+	if (argv[2][0] != '\0')
+	{
+		printf("ERROR\n");
+		return (1);
+	}
 	value = atoi(argv[1]);
 	value2 = atoi(argv[2]);
 	sum = value * value2;
