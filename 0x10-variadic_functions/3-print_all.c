@@ -18,6 +18,10 @@ void print_all(const char * const format, ...)
 	const char *ptr = format;
 
 	va_start(args, format);
+	if (format == NULL)
+	{
+		printf("(nil)");
+	}
 	while (*ptr != '\0')
 	{
 		c = *ptr;
