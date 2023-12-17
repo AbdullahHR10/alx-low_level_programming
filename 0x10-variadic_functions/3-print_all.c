@@ -1,11 +1,5 @@
 #include "variadic_functions.h"
-#define PRINT_NIL_IF_NULL(format) \
-    do {                           \
-        if ((format) == NULL) {    \
-            printf("(nil)\n");     \
-            return;                \
-        }                          \
-    } while (0)
+
 /**
  * print_all - Prints anything
  * @format:  list of types of arguments passed to the function
@@ -23,7 +17,6 @@ void print_all(const char * const format, ...)
 	char *s;
 	const char *ptr = format;
 
-	PRINT_NIL_IF_NULL(format);
 	va_start(args, format);
 	while (*ptr != '\0')
 	{
