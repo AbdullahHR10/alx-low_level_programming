@@ -23,6 +23,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 			printf("%s", separator);
 		}
 	}
-	_putchar('\n');
-	va_end (args);
+	printf("\n");
+	va_end(args);
 }
