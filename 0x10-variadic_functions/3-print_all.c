@@ -17,11 +17,8 @@ void print_all(const char * const format, ...)
 	char *s;
 	const char *ptr = format;
 
+	format ? : printf("(nil)\n");
 	va_start(args, format);
-	if (format == NULL)
-	{
-		printf("(nil)");
-	}
 	while (*ptr != '\0')
 	{
 		c = *ptr;
