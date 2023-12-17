@@ -1,4 +1,6 @@
 #include "variadic_functions.h"
+#define PRINT_NIL_IF_NULL(format) ((format == NULL) ? \
+		(printf("(nil)\n"), 1) : 0)
 
 /**
  * print_all - Prints anything
@@ -17,7 +19,7 @@ void print_all(const char * const format, ...)
 	char *s;
 	const char *ptr = format;
 
-	(format == NULL) ? printf("(nil)\n") : 0;
+	while (PRINT_NIL_IF_NULL(format));
 	va_start(args, format);
 	while (*ptr != '\0')
 	{
