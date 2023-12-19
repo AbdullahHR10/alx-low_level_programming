@@ -16,7 +16,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	char *memory;
 	ssize_t bytesRead, bytesWritten;
 
-	fp = open(filename, "r");
+	fp = fopen(filename, "R");
 	if (fp == NULL)
 	{
 		return (0);
@@ -24,10 +24,10 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	memory = (char *)malloc(sizeof(char));
 	if (memory == NULL)
 	{
-		close(fp);
+		fclose(fp);
 		return (0);
 	}
-	bytesRead = read(memory, sizeof(char), letters, fp);
-	close(fp);
+	bytesRead = fread(memory, sizeof(char), letters, fp);
+	fclose(fp);
 	return (bytesRead);
 }
