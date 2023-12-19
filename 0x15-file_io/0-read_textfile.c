@@ -35,8 +35,8 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		free(memory);
 		return (0);
 	}
-	fclose(fp);
 	memory[bytesRead] = '\0';
+	fclose(fp);
 	free(memory);
 	return (bytesRead);
 }
