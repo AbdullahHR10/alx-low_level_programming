@@ -29,6 +29,12 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	}
 	bytesRead = fread(memory, sizeof(char), letters, fp);
 	bytesWritten = fwrite(memory, sizeof(char), bytesRead, stdout);
+	if (bytesWritten != bytesRead)
+	{
+		fclose(fp);
+		free(memory);
+		return (0);
+	}
 	fclose(fp);
 	memory[bytesRead] = '\0';
 	free(memory);
