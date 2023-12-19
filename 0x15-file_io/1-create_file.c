@@ -22,12 +22,15 @@ int create_file(const char *filename, char *text_content)
 	{
 		return (-1);
 	}
-	strlength = strlen(text_content);
-	write_result = write(fd, text_content, strlength);
-	if (write_result == -1)
+	if (text_content != NULL)
 	{
-		close(fd);
-		return (-1);
+		strlength = strlen(text_content);
+		write_result = write(fd, text_content, strlength);
+		if (write_result == -1)
+		{
+			close(fd);
+			return (-1);
+		}
 	}
 	close(fd);
 	return (1);
