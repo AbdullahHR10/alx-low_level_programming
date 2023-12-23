@@ -11,7 +11,7 @@ char *_strstr(char *haystack, char *needle)
 {
 	const char *h, *n;
 
-	if (haystack == NULL || needle == NULL || *needle == '\0')
+	if (haystack == NULL || needle == NULL)
 	{
 		return (NULL);
 	}
