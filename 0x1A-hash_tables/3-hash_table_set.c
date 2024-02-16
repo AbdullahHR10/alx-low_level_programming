@@ -20,7 +20,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		return (0);
 	}
 	index = hash_djb2((const unsigned char *)key) % ht->size;
-	new_node = create_hash_node(key, value);
+	new_node = (key, value);
 	if (new_node == NULL)
 	{
 		return (0);
