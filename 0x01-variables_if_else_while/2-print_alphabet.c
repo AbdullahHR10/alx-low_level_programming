@@ -9,7 +9,7 @@
 int main(void)
 {
 	int i;
-	char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
+	char alpha[27] = "abcdefghijklmnopqrstuvwxyz";
 
 	for (i = 0; alpha[i] != '\0'; i++)
 	{
