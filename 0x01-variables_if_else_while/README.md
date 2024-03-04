@@ -2,6 +2,8 @@
 
 This repository contains solutions to various C programming tasks as part of the ALX SE Programme Project 0x01. Each task is solved with a separate C file.
 
+By: Abdullah Hussein
+
 ## Files
 
 1. `0-positive_or_negative.c`: Prints whether the number stored in the variable `n` is positive or negative.
