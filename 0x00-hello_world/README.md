@@ -2,6 +2,8 @@
 
 This repository contains solutions to various C programming tasks as part of the ALX SE Programme Project 0x00. Each task is solved with a separate script or C file.
 
+By: Abdullah Hussein
+
 ## Files
 
 1. **0-preprocessor**: Script that runs a C file through the preprocessor and saves the result into another file.
