@@ -2,6 +2,8 @@
 
 This repository contains solutions to various C programming tasks as part of the ALX SE Project 0x02. Each task is solved with a separate C file.
 
+By: Abdullah Hussein
+
 ## Files
 
 1. `0-putchar.c`: Prints "_putchar", followed by a new line.
