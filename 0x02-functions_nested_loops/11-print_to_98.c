@@ -48,4 +48,4 @@ void print_to_98(int n)
 				_putchar(i / 100 + '0');
 				_putchar((i / 10) % 10 + '0');
 				_putchar(i % 10 + '0');
-			}}}}
+			}}} _putchar('\n'); }
