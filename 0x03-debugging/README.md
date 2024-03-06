@@ -2,7 +2,7 @@
 
 This repository contains solutions to various C debugging tasks as part of the ALX SE Programme Project 0x03. Each task is solved with a separate script or C file.
 
-By: Abdullah Hussein
+**By:** Abdullah Hussein
 
 ## Files
 
