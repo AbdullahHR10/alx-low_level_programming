@@ -1,6 +1,7 @@
 # ALX SE Project 0x02 - C Functions, Nested Loops
 
-This project contains solutions to various C programming tasks as part of the ALX SE Project 0x02. Each task is solved with a separate C file.
+This project contains solutions to various C programming tasks as part of the ALX SE Project 0x02. Each task is solved with a separate C file and it
+focuses on understanding and practicing concepts related to functions and nested loops in C programming.
 
 **Author:** Abdullah Hussein
 
