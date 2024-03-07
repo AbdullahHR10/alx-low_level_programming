@@ -2,7 +2,7 @@
 
 This repository contains solutions to various C programming tasks as part of the ALX SE Programme Project 0x01. Each task is solved with a separate C file.
 
-**By:** Abdullah Hussein
+**Author:** Abdullah Hussein
 
 ## Files
 
