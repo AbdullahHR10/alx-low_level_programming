@@ -1,6 +1,6 @@
 # ALX SE Project 0x02 - C Functions, Nested Loops
 
-This repository contains solutions to various C programming tasks as part of the ALX SE Project 0x02. Each task is solved with a separate C file.
+This project contains solutions to various C programming tasks as part of the ALX SE Project 0x02. Each task is solved with a separate C file.
 
 **Author:** Abdullah Hussein
 
