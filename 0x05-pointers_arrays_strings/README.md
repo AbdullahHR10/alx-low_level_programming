@@ -1,6 +1,6 @@
 # ALX SE Project 0x05. C - Pointers, arrays and strings
 
-**Description:** This project focuses on pointers, arrays, and string manipulation in C programming. It includes solutions to various tasks aimed at understanding and practicing these concepts.
+This project focuses on pointers, arrays, and string manipulation in C programming. It includes solutions to various tasks aimed at understanding and practicing these concepts.
 
 **Author:** Abdullah Hussein
 
