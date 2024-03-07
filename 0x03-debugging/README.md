@@ -1,6 +1,6 @@
 # ALX SE Programme Project 0x03 - C Debugging
 
-This repository contains solutions to various C debugging tasks as part of the ALX SE Programme Project 0x03. Each task is solved with a separate script or C file.
+This project contains solutions to various C debugging tasks as part of the ALX SE Programme Project 0x03. Each task is solved with a separate script or C file.
 
 **Author:** Abdullah Hussein
 
