@@ -1,6 +1,6 @@
 # ALX SE Programme Project 0x00 - C Hello, World
 
-This repository contains solutions to various C programming tasks as part of the ALX SE Programme Project 0x00. Each task is solved with a separate script or C file.
+This project contains solutions to various C programming tasks as part of the ALX SE Programme Project 0x00. Each task is solved with a separate script or C file.
 
 **Author:** Abdullah Hussein
 
