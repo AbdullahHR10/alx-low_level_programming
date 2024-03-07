@@ -1,6 +1,6 @@
 # ALX SE Programme Project 0x01 - C Variables, if, else, while
 
-This repository contains solutions to various C programming tasks as part of the ALX SE Programme Project 0x01. Each task is solved with a separate C file.
+This project contains solutions to various C programming tasks as part of the ALX SE Programme Project 0x01. Each task is solved with a separate C file.
 
 **Author:** Abdullah Hussein
 
