@@ -1,4 +1,4 @@
-<h1>ALX SE Programme Project 0x01. C - Variables, if, else, while</h1>s
+<h1>ALX SE Programme Project 0x01. C - Variables, if, else, while</h1>
 
 ![Static Badge](https://img.shields.io/badge/C-00599C?&logo=c&logoColor=white) ![Static Badge](https://img.shields.io/badge/AbdullahHR10-%230359AE?logo=Github&logoColor=%23000000)
 
