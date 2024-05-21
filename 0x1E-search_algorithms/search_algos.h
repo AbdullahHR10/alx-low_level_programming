@@ -1,5 +1,5 @@
-#ifndef SORTING_HEADER
-#define SORTING_HEADER
+#ifndef SEARCHING_HEADER
+#define SEARCHING_HEADER
 
 /**
  * struct listint_s - singly linked list
