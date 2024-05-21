@@ -1,6 +1,9 @@
 #ifndef SEARCHING_HEADER
 #define SEARCHING_HEADER
 
+#include <stdio.h>
+#include <stdlib.h>
+
 /**
  * struct listint_s - singly linked list
  *
