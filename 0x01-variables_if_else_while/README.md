@@ -1,11 +1,14 @@
 <h1>ALX SE Programme Project 0x01. C - Variables, if, else, while</h1>
 
-![Static Badge](https://img.shields.io/badge/C-00599C?&logo=c&logoColor=white) ![Static Badge](https://img.shields.io/badge/AbdullahHR10-%230359AE?logo=Github&logoColor=%23000000)
+![Static Badge](https://img.shields.io/badge/ALX-white?logo=ALX&logoColor=black) ![Static Badge](https://img.shields.io/badge/C-00599C?&logo=c&logoColor=white) ![Static Badge](https://img.shields.io/badge/AbdullahHR10-%230359AE?logo=Github&logoColor=%23000000)
 
 This project contains solutions to various C programming tasks as part of the ALX SE Programme Project 0x01. Each task is solved with a separate C file and it
 focuses on understanding and practicing concepts related to variables, if statements, else statements, and while loops in C programming.
 
 ---
+
+<h1>Files</h1>
+
 | Task | Files | Description |
 | ----- | ----- | ------ |
 | 0 | [0-positive_or_negative.c](./0-positive_or_negative.c) | Prints whether the number stored in the variable n is positive or negative. |
