@@ -14,6 +14,9 @@ This repository is dedicated to housing a collection of ALX projects focused on 
 
 | Directory  | Description |
 | ----- | ------ |
+| [0x00 - Hello World](./0x00-hello_world/) | This project contains solutions to various C programming tasks as part of the ALX SE Programme Project 0x00. Each task is solved with a separate script or C file, focusing on introductory C programming concepts and practices. |
+| [0x01 - Variables, if, else, while](./0x01-variables_if_else_while/) | This project contains solutions to various C programming tasks as part of the ALX SE Programme Project 0x01. Each task is solved with a separate C file, emphasizing understanding and practicing concepts related to variables, if statements, else statements, and while loops in C programming. |
+| [0x02 - Functions, Nested Loops](./0x02-functions_nested_loops/) | This project contains solutions to various C programming tasks as part of the ALX SE Project 0x02. Each task is solved with a separate C file, focusing on understanding and practicing concepts related to functions and nested loops in C programming. |
 | [0x03 - Debugging](./0x03-debugging/) | This project contains solutions to debugging exercises as part of the ALX SE Programme. Debugging is an essential skill for programmers, and these tasks focus on identifying and fixing errors in C code. |
 | [0x04 - More Functions, Nested Loops](./0x04-more_functions_nested_loops/) | This project builds upon the concepts covered in previous projects, focusing on additional functions and nested loop structures in C programming. |
 | [0x05 - Pointers, Arrays, Strings](./0x05-pointers_arrays_strings/) | This project delves into the use of pointers, arrays, and strings in C programming, exploring their functionalities and applications. |
