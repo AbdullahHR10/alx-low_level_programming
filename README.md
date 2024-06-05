@@ -6,7 +6,7 @@
 ![Static Badge](https://img.shields.io/badge/AbdullahHR10-%230359AE?logo=Github&logoColor=%23000000)
 
 <h1>ALX SE Programme Low-Level Programming</h1>
-This repository is dedicated to housing a collection of ALX projects focused on enhancing learning in the C programming language. Each project within this repository is designed to target specific C programming topics, providing hands-on tasks to deepen understanding and proficiency.
+This repository is dedicated to housing a collection of ALX projects focused on learning C programming language. Each project within this repository is designed to target specific C programming topics, providing hands-on tasks to deepen understanding and proficiency.
 
 ---
 
