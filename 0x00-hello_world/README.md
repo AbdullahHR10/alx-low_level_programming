@@ -1,11 +1,13 @@
 <h1>ALX SE Programme Project 0x00 - C Hello, World</h1>
 
-![Static Badge](https://img.shields.io/badge/C-00599C?&logo=c&logoColor=white) ![Static Badge](https://img.shields.io/badge/AbdullahHR10-%230359AE?logo=Github&logoColor=%23000000)
+![Static Badge](https://img.shields.io/badge/ALX-white?logo=ALX&logoColor=black) ![Static Badge](https://img.shields.io/badge/C-00599C?&logo=c&logoColor=white) ![Static Badge](https://img.shields.io/badge/AbdullahHR10-%230359AE?logo=Github&logoColor=%23000000)
 
 This project contains solutions to various C programming tasks as part of the ALX SE Programme Project 0x00. Each task is solved with a separate script or C file and it
 focuses on introductory C programming concepts and practices.
 
 ---
+
+<h1>Files</h1>
 
 | Task | Files | Description |
 | ----- | ----- | ------ |
