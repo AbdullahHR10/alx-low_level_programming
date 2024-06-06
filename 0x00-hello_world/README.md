@@ -10,7 +10,7 @@ focuses on introductory C programming concepts and practices.
 
 ---
 
-<h1>Files</h1>
+<h1>Content</h1>
 
 | Task | Files | Description |
 | ----- | ----- | ------ |
