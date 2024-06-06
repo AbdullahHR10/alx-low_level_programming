@@ -1,13 +1,15 @@
-<h1>ALX SE Programme Project 0x01. C - Variables, if, else, while</h1>
+![0x01 _C_-_Variables,_if,_else,_while](https://github.com/AbdullahHR10/alx-low_level_programming/assets/140081525/c242d9ac-0689-43a8-b867-448f4d66b25f)
 
 ![Static Badge](https://img.shields.io/badge/ALX-white?logo=ALX&logoColor=black) ![Static Badge](https://img.shields.io/badge/C-00599C?&logo=c&logoColor=white) ![Static Badge](https://img.shields.io/badge/AbdullahHR10-%230359AE?logo=Github&logoColor=%23000000)
+<h1>ALX SE Programme Project 0x01. C - Variables, if, else, while</h1>
+
 
 This project contains solutions to various C programming tasks as part of the ALX SE Programme Project 0x01. Each task is solved with a separate C file and it
 focuses on understanding and practicing concepts related to variables, if statements, else statements, and while loops in C programming.
 
 ---
 
-<h1>Files</h1>
+<h1>Content</h1>
 
 | Task | Files | Description |
 | ----- | ----- | ------ |
