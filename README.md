@@ -1,12 +1,14 @@
 ![ALX_Low-Level_Programming](https://github.com/AbdullahHR10/alx-low_level_programming/assets/140081525/5d1f856c-1c8f-4db1-8fe9-6bf548255bea)
 
+<h1>ALX SE Programme Low-Level Programming</h1>
+
 ![Static Badge](https://img.shields.io/badge/ALX-white?logo=ALX&logoColor=black)
 ![Static Badge](https://img.shields.io/badge/Shell-black?logo=shell&logoColor=green)
 ![Static Badge](https://img.shields.io/badge/C-00599C?&logo=c&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/AbdullahHR10-%230359AE?logo=Github&logoColor=%23000000)
 
-<h1>ALX SE Programme Low-Level Programming</h1>
 This repository is dedicated to housing a collection of ALX projects focused on learning C programming language. Each project within this repository is designed to target specific C programming topics, providing hands-on tasks to deepen understanding and proficiency.
+
 
 ---
 
