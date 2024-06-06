@@ -42,3 +42,17 @@ This repository is dedicated to housing a collection of ALX projects focused on 
 | [0x1A - Hash Tables](./0x1A-hash_tables/) | Hash tables are data structures used for efficient storage and retrieval of key-value pairs. This project covers hash tables in C programming, including their implementation and operations. |
 | [0x1C - Makefiles](./0x1C-makefiles/) | Makefiles are used to automate the build process of a program. This project covers the creation and usage of Makefiles in C programming, including compiling, linking, and managing dependencies. |
 | [0x1E - Search Algorithms](./0x1E-search_algorithms/) | Search algorithms are fundamental algorithms used to locate elements within a data structure. This project covers various search algorithms in C programming, including linear search, binary search, and more. |
+
+<h1>Author</h1>
+
+* **Abdullah Hussein**
+**AbdullahH.Ragab10@gmail.com**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://twitter.com/abdullahhr20" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="abdullahhr20" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/abdullah-hussein-061039280" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="abdullah-hussein-061039280" height="30" width="40" /></a>
+<a href="https://fb.com/profile.php?id=61557152731160" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="profile.php?id=61557152731160" height="30" width="40" /></a>
+<a href="https://www.youtube.com/channel/UCn4EfouEYzfwkUEnbGtaghQ" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="channel/ucn4efoueyzfwkuenbgtaghq" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/abdullahhr" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="abdullahhr" height="30" width="40" /></a>
+</p>
