@@ -1,3 +1,6 @@
+![0X00 _C_-_Hello,_World](https://github.com/AbdullahHR10/alx-low_level_programming/assets/140081525/1cdb9f28-d628-4557-aeb5-c17445d48c44)
+
+
 <h1>ALX SE Programme Project 0x00 - C Hello, World</h1>
 
 ![Static Badge](https://img.shields.io/badge/ALX-white?logo=ALX&logoColor=black) ![Static Badge](https://img.shields.io/badge/C-00599C?&logo=c&logoColor=white) ![Static Badge](https://img.shields.io/badge/AbdullahHR10-%230359AE?logo=Github&logoColor=%23000000)
