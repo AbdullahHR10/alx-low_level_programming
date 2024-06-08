@@ -12,7 +12,7 @@ This repository is dedicated to housing a collection of ALX projects focused on 
 
 ---
 
-<h1>Content</h1>
+<h1>Directories</h1>
 
 | Directory  | Description |
 | ----- | ------ |
